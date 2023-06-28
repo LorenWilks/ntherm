@@ -1,0 +1,99 @@
+.container {
+  padding: 20px;
+}
+
+.search-filter-container {
+  margin-right: 100px;
+  width: 200px;
+  margin-top: 30px;
+}
+
+.search-input {
+  margin-right: 10px;
+  width: 200px;
+  margin-top: 30px;
+}
+
+.filter-dropdown {
+  width: 200px;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 5px;
+  align-items: start;
+  justify-items: center;
+  margin-top: 50px;
+}
+
+
+.button-container {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  margin-top: 110px;
+  left: 70%;
+}
+
+.go-to-page label {
+  margin-right: 10px;
+}
+
+.go-to-page input {
+  margin-right: 10px;
+  width: 100px;
+}
+
+.total-pages {
+  margin-bottom: 10px;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  text-align: center;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  white-space: nowrap;
+}
+.pagination-container {
+  /* position: fixed; */
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  /* z-index: 1; */
+  /* margin-top: 110px; */
+}
+
+.leads-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.leads-table th,
+.leads-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.leads-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.leads-table tr:hover {
+  background-color: #ddd;
+}

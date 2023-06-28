@@ -1,0 +1,12 @@
+.logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-img {
+    margin-right: auto;
+  }
+  
+  .header-container{
+    position: absolute;
+  }

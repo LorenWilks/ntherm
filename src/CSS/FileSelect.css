@@ -1,0 +1,57 @@
+.file-select {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin-top: 50px;
+  height: 100vh;
+}
+
+.file-select__container {
+  width: 400px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.file-select__header {
+  color: blue;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.file-select__label {
+  margin-bottom: 10px;
+}
+
+.file-select__input {
+  display: none;
+}
+
+.file-select__button {
+  margin: 20px 0;
+  padding: 10px 20px;
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.file-select__file-name {
+  margin-bottom: 10px;
+}
+
+.file-select__error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.file-select__submit-button {
+  margin-top: 20px;
+}

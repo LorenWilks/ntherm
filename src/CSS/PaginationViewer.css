@@ -1,0 +1,26 @@
+.pagination-container {
+  display: fixed;
+  /* justify-content: center; */
+  align-items: center;
+  /* margin-top: 250px; */
+}
+  
+  .go-to-page {
+    /* display: flex; */
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .go-to-page label {
+    margin-right: 10px;
+  }
+  
+  .go-to-page input {
+    margin-right: 10px;
+    width: 100px;
+  }
+  
+  .total-pages {
+    margin-bottom: 10px;
+  }
+  

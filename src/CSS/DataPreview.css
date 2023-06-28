@@ -1,0 +1,19 @@
+.data-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .data-preview__item {
+    margin-bottom: 10px;
+  }
+  .submit-button {
+      margin-right: 10px;
+      position: fixed;
+      top: 2;
+      left: 75%;
+      transform: translateX(-50%);
+      z-index: 1;
+    }
